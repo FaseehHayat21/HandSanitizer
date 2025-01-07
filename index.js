@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT;
-const MONGO_URI = 'mongodb://faseeh:<db_password>@undefined/?replicaSet=atlas-rg7rft-shard-0&ssl=true&authSource=admin';
+const MONGO_URI = 'mongodb+srv://faseeh:faseeh%40210663@handsanitizer.p1w5a.mongodb.net/';
 
 app.use(cors());
 app.use(express.json());
