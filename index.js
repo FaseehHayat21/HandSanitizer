@@ -3,7 +3,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 
 const app = express();
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT;
 const MONGO_URI = 'mongodb://localhost:27017/adminDashboard';
 
 app.use(cors());
